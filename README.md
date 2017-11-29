@@ -1,6 +1,5 @@
 An open graphic front end for the xmr-stak gui miner for monero for windows (ATM). 
-
-     ![Screenshot](https://i.imgur.com/jXdAzVm.png "Picture of xmrgui") 
+![Screenshot](https://i.imgur.com/jXdAzVm.png "Picture of xmrgui") 
       
       
 Xmrgui is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config
@@ -27,4 +26,4 @@ BTC - 1F26dDocb9K7EQZfHz1EsnKKCdyPCMKxmD
 
 ETH - 0xb8452276e642885c3c7da84bca41cf43590af5a0
 
-XRM - 48EE538ATaagrtvQwSKy2PSmVxARCpmrqVR9dpZ6w8jsCoerXcSXnriHaU3mj14xKsChzcxs1aWRiMMnsPWabHFEGVQUmhq
+XRM - ^48EE538ATaagrtvQwSKy2PSmVxARCpmrqVR9dpZ6w8jsCoerXcSXnriHaU3mj14xKsChzcxs1aWRiMMnsPWabHFEGVQUmhq
