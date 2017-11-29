@@ -1,0 +1,17 @@
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\bin\Release\xmrgui.exe.manifest
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\bin\Release\xmrgui.application
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\bin\Release\xmrgui.exe
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\bin\Release\xmrgui.pdb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\bin\Release\xmrgui.xml
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\MainWindow.baml
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\MainWindow.g.vb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\Application.g.vb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui_MarkupCompile.cache
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.g.resources
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.vbproj.GenerateResource.Cache
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.exe.manifest
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.application
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.exe
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.xml
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.pdb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Release\xmrgui.Resources.resources

@@ -1,0 +1,7 @@
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\MainWindow.baml
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\MainWindow.g.vb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\Application.g.vb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\xmrgui_MarkupCompile.cache
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\xmrgui.g.resources
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\WpfApplication1.Resources.resources
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xmrgui\xmrgui\obj\x86\Debug\xmrgui.vbproj.GenerateResource.Cache
