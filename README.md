@@ -1,11 +1,14 @@
-An open graphic front end for the xmr-stak gui miner for monero for windows (ATM).
-     ![Screenshot](https://i.imgur.com/jXdAzVm.png "Picture of xmrgui")
+An open graphic front end for the xmr-stak gui miner for monero for windows (ATM). 
+
+     ![Screenshot](https://i.imgur.com/jXdAzVm.png "Picture of xmrgui") 
+      
+      
 Xmrgui is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config
 The miner xmrgui uses currently is the excellent xmr-stak-cpu miner.  More info at the [release post](https://www.reddit.com/r/MoneroMining/comments/7gbfsh/xmrgui_super_alpha_release/) on reddit. 
  
  ____
       
-        This is an initial public release, the software may have some issues, but appeared to be fully cunctional in my testing
+   This is an initial public release, the software may have some issues, but appeared to be fully cunctional in my testing
 It's currently written in vb.net. If you wish to compile yourself, grab a free copy of vs2010 exprress, it is sufficient to build.
 
 
