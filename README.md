@@ -1,21 +1,19 @@
-An open graphic front end for the xmr-stak-cpu miner for monero on windows64 (ATM). 
-![Screenshot](https://i.imgur.com/jXdAzVm.png "Picture of xmrgui") 
+  An open graphic front end for the xmr-stak miner for monero on windows64 (ATM). 
+![Screenshot](https://i.imgur.com/IFH0AtT.png "Picture of xmrgui") 
       
       
-Xmrgui is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config
-The miner xmrgui uses currently is the excellent xmr-stak-cpu miner.  More info at the [release post](https://www.reddit.com/r/MoneroMining/comments/7gbfsh/xmrgui_super_alpha_release/) on reddit. 
+Xmrgui is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config.
+Our current back end is the excellent [xmr-stak  miner](https://github.com/fireice-uk/xmr-stak).  
  
  ____
       
-   This is an initial public release, the software may have some issues, but appeared to be fully cunctional in my testing
+   This is an aplha, the software may have some issues, but appeared to be fully functional in my testing
 It's currently written in vb.net. If you wish to compile yourself, grab a free copy of vs2010 exprress, it is sufficient to build.
 
-
-[Binary is here](https://github.com/jerrimus/xmrgui/blob/master/xmrgui/xmrgui/bin/Release/xmrgui.exe)
- The miner can [be found here](https://github.com/fireice-uk/xmr-stak-cpu/releases) . 
+   The current version (alpha .001) is available [for download here](https://github.com/jerrimus/xmrgui/releases)
   
-  Installation consists of dropping the xmrgui.exe into your xmr-stak directory and running it.
-  
+  To install, extract the files from the zip and run setup.exe, the shortcut will be found in your start menu afterwards.
+ 
   Questions,issues, or suggestions can be communicated via email (jerry@fam-base.net) or posting on the [xmgui subreddit](https://www.reddit.com/r/XMGUI)
   
   ____
