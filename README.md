@@ -1,4 +1,4 @@
-An open graphic front end for the xmr-stak gui miner for monero for windows (ATM). 
+An open graphic front end for the xmr-stak-cpu miner for monero on windows64 (ATM). 
 ![Screenshot](https://i.imgur.com/jXdAzVm.png "Picture of xmrgui") 
       
       
@@ -12,7 +12,7 @@ It's currently written in vb.net. If you wish to compile yourself, grab a free c
 
 
 [Binary is here](https://github.com/jerrimus/xmrgui/blob/master/xmrgui/xmrgui/bin/Release/xmrgui.exe)
- The miner can [be found here](https://github.com/fireice-uk/xmr-stak/releases) . 
+ The miner can [be found here](https://github.com/fireice-uk/xmr-stak-cpu/releases) . 
   
   Installation consists of dropping the xmrgui.exe into your xmr-stak directory and running it.
   
