@@ -1,8 +1,8 @@
-  An open graphic front end for the xmr-stak miner for monero on windows64 (ATM). 
-![Screenshot](https://i.imgur.com/n88MMH3.png "Picture of xmrgui") 
+  An open graphic front end for the console mode mining programs on windows64 (ATM). 
+![Screenshot](https://i.imgur.com/n88MMH3.png "Picture of xmgui") 
       
       
-Xmrgui is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config.
+XMHUI is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config.
 Our current back ends are the  [xmr-stak  miner](https://github.com/fireice-uk/xmr-stak) and the [nice hash equihash miner](https://github.com/nicehash/nheqminer)
  
  ____
