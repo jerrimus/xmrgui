@@ -12,7 +12,7 @@ Our current back ends are the  [xmr-stak  miner](https://github.com/fireice-uk/x
    This is an aplha, the software may have some issues, but appeared to be fully functional in my testing
 It's currently written in vb.net. If you wish to compile yourself, grab a free copy of vs2010 exprress, it is sufficient to build.
 
-   The current version (alpha .01) is available [for download here](https://github.com/jerrimus/xmrgui/releases)
+   The current version (alpha .02) is available [for download here](https://github.com/jerrimus/xmrgui/releases)
   
   To install, extract the files from the zip and run setup.exe, the shortcut will be found in your start menu afterwards.
  
