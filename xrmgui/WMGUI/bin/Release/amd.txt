@@ -1,0 +1,5 @@
+"gpu_threads_conf":
+[
+{"index" : 0,"intensity" : 512,"worksize" : 64,"affine_to_cpu" : false},
+],
+"platform_index" : 0,

@@ -1,0 +1,4 @@
+"cpu_threads_conf":
+[
+{"low_power_mode" :  false, "no_prefetch" :  false, "affine_to_cpu" : false},
+],
