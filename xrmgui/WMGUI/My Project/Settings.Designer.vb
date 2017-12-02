@@ -53,6 +53,26 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\Database1.sdf")>  _
+        Public ReadOnly Property Database1ConnectionString() As String
+            Get
+                Return CType(Me("Database1ConnectionString"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=|DataDirectory|\MyDatabase#1.sdf;Password=password")>  _
+        Public ReadOnly Property dbconn() As String
+            Get
+                Return CType(Me("dbconn"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

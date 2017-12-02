@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="wallets" targetNamespace="http://tempuri.org/wallets.xsd" xmlns:mstns="http://tempuri.org/wallets.xsd" xmlns="http://tempuri.org/wallets.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="Database1ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database1ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.XMGUI.My.MySettings.GlobalReference.Default.Database1ConnectionString" Provider="Microsoft.SqlServerCe.Client.3.5" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="wallets" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="wallets" msprop:Generator_UserDSName="wallets">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="wallets" msprop:Generator_TableClassName="walletsDataTable" msprop:Generator_TableVarName="tablewallets" msprop:Generator_TablePropName="_wallets" msprop:Generator_RowDeletingName="walletsRowDeleting" msprop:Generator_RowChangingName="walletsRowChanging" msprop:Generator_RowEvHandlerName="walletsRowChangeEventHandler" msprop:Generator_RowDeletedName="walletsRowDeleted" msprop:Generator_UserTableName="wallets" msprop:Generator_RowChangedName="walletsRowChanged" msprop:Generator_RowEvArgName="walletsRowChangeEvent" msprop:Generator_RowClassName="walletsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="aeonstore" msdata:Caption="Aeon" msprop:Generator_ColumnVarNameInTable="columnaeonstore" msprop:Generator_ColumnPropNameInRow="aeonstore" msprop:Generator_ColumnPropNameInTable="aeonstoreColumn" msprop:Generator_UserColumnName="aeonstore" type="xs:string" minOccurs="0" />
+              <xs:element name="bytecoinstore" msprop:Generator_ColumnVarNameInTable="columnbytecoinstore" msprop:Generator_ColumnPropNameInRow="bytecoinstore" msprop:Generator_ColumnPropNameInTable="bytecoinstoreColumn" msprop:Generator_UserColumnName="bytecoinstore" type="xs:string" minOccurs="0" />
+              <xs:element name="bipcoinstore" msprop:Generator_ColumnVarNameInTable="columnbipcoinstore" msprop:Generator_ColumnPropNameInRow="bipcoinstore" msprop:Generator_ColumnPropNameInTable="bipcoinstoreColumn" msprop:Generator_UserColumnName="bipcoinstore" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

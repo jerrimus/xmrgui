@@ -30,6 +30,10 @@
 
     Private Property intsn As String
 
+    Private Property curcoin As String
+
+    Private Property lline As Integer
+
 
     Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
     End Sub
@@ -107,7 +111,12 @@
         If minestat = 0 Then
             cointype = cdata
             If cdata = "Aeon" Then cfg = 0
+            If cdata = "Bytecoin" Then cfg = 0
+            If cdata = "Bipcoin" Then cfg = 0
+            If cdata = "Bitcoal" Then cfg = 0
             If cdata = "Monero" Then cfg = 0
+            If cdata = "Sumokoin" Then cfg = 0
+            If cdata = "Ultranote" Then cfg = 0
             If cdata = "Zcash" Then cfg = 1
             Dim word = wsize.Text.ToString
             Dim wal As String = userbox.Text
@@ -806,5 +815,165 @@
     Private Sub CheckBox2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox2.CheckedChanged
         If CheckBox2.Checked = True Then pwbox.Enabled = False
         If CheckBox2.Checked = False Then pwbox.Enabled = True
+    End Sub
+
+
+ 
+
+
+    Private Sub ToolStripMenuItem2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem2.Click
+        Dim wt As System.IO.TextWriter
+        Dim ccc = walstore.Text.ToString
+        If clist.Text = "Aeon" Then
+            wt = System.IO.File.CreateText("aeon.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+        If clist.Text = "Bytecoin" Then
+            wt = System.IO.File.CreateText("bytecoin.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+        If clist.Text = "Bipcoin" Then
+            wt = System.IO.File.CreateText("bipcoin.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+        If clist.Text = "Bitcoal" Then
+            wt = System.IO.File.CreateText("bitcoal.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+        If clist.Text = "Monero" Then
+            wt = System.IO.File.CreateText("monero.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+        If clist.Text = "Sumokoin" Then
+            wt = System.IO.File.CreateText("sumokoin.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+        If clist.Text = "Zcash" Then
+            wt = System.IO.File.CreateText("zcash.wal")
+            wt.Write(ccc)
+            wt.Flush()
+            wt.Close()
+        End If
+
+    End Sub
+
+    Private Sub ToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ToolStripMenuItem1.Click
+        Dim rd As System.IO.StreamReader
+        If clist.Text = "Aeon" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("aeon.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "Bytecoin" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("bytecoin.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "Bipcoin" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("bipcoin.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "bitcoal" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("bitcoal.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "monero" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("monero.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "Sumokoin" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("aeon.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "Ultranote" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("aeon.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+        If clist.Text = "Zcash" Then
+            Dim EntireFile As String
+            rd = IO.File.OpenText("zcash.wal")
+            EntireFile = rd.ReadToEnd()
+            MessageBox.Show(EntireFile)
+        End If
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = False Then userbox.Text = ""
+        If CheckBox1.Checked = True Then
+            Dim rd As System.IO.StreamReader
+            If cpulist.Text = "Aeon" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("aeon.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "Bytecoin" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("bytecoin.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "Bipcoin" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("bipcoin.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "bitcoal" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("bitcoal.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "monero" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("monero.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "Sumokoin" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("aeon.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "Ultranote" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("aeon.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+            End If
+            If cpulist.Text = "Zcash" Then
+                Dim EntireFile As String
+                rd = IO.File.OpenText("zcash.wal")
+                EntireFile = rd.ReadToEnd()
+                userbox.Text = EntireFile
+
+            End If
+        End If
     End Sub
 End Class

@@ -24,3 +24,4 @@ C:\Users\jerry\Documents\Visual Studio 2010\Projects\xrmgui\WMGUI\obj\x86\Releas
 C:\Users\jerry\Documents\Visual Studio 2010\Projects\xrmgui\WMGUI\obj\x86\Release\XMGUI.exe
 C:\Users\jerry\Documents\Visual Studio 2010\Projects\xrmgui\WMGUI\obj\x86\Release\XMGUI.xml
 C:\Users\jerry\Documents\Visual Studio 2010\Projects\xrmgui\WMGUI\obj\x86\Release\XMGUI.pdb
+C:\Users\jerry\Documents\Visual Studio 2010\Projects\xrmgui\WMGUI\bin\Release\XMGUI.exe.config

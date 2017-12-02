@@ -58,9 +58,17 @@ Partial Class main
         Me.CheckBox12 = New System.Windows.Forms.CheckBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.WalletsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.walstore = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.clist = New System.Windows.Forms.ToolStripComboBox()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1.SuspendLayout()
         CType(Me.cpunum, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gpunum, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'StatusStrip1
@@ -131,14 +139,13 @@ Partial Class main
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(12, 47)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(61, 13)
+        Me.Label5.Size = New System.Drawing.Size(50, 13)
         Me.Label5.TabIndex = 12
-        Me.Label5.Text = "User/wallet"
+        Me.Label5.Text = "User/wal"
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Enabled = False
         Me.CheckBox1.Location = New System.Drawing.Point(175, 49)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(75, 17)
@@ -258,7 +265,7 @@ Partial Class main
         'cpulist
         '
         Me.cpulist.FormattingEnabled = True
-        Me.cpulist.Items.AddRange(New Object() {"Aeon", "Monero", "Zcash"})
+        Me.cpulist.Items.AddRange(New Object() {"Aeon", "Bytecoin", "Bipcoin", "Bitcoal", "Monero", "Sumokoin", "Ultranote", "Zcash"})
         Me.cpulist.Location = New System.Drawing.Point(677, 103)
         Me.cpulist.Name = "cpulist"
         Me.cpulist.Size = New System.Drawing.Size(120, 17)
@@ -267,7 +274,7 @@ Partial Class main
         'gpulist
         '
         Me.gpulist.FormattingEnabled = True
-        Me.gpulist.Items.AddRange(New Object() {"Aeon", "Monero", "Zcash"})
+        Me.gpulist.Items.AddRange(New Object() {"Aeon", "Bytecoin", "Bipcoin", "Bitcoal", "Monero", "Sumokoin", "Ultranote", "Zcash"})
         Me.gpulist.Location = New System.Drawing.Point(677, 45)
         Me.gpulist.Name = "gpulist"
         Me.gpulist.Size = New System.Drawing.Size(120, 17)
@@ -358,7 +365,7 @@ Partial Class main
         'CheckBox11
         '
         Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(677, 13)
+        Me.CheckBox11.Location = New System.Drawing.Point(677, 68)
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(50, 17)
         Me.CheckBox11.TabIndex = 37
@@ -368,7 +375,7 @@ Partial Class main
         'CheckBox12
         '
         Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(734, 13)
+        Me.CheckBox12.Location = New System.Drawing.Point(741, 68)
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(56, 17)
         Me.CheckBox12.TabIndex = 38
@@ -392,6 +399,54 @@ Partial Class main
         Me.Label8.Size = New System.Drawing.Size(26, 13)
         Me.Label8.TabIndex = 40
         Me.Label8.Text = "Port"
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.WalletsToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(856, 24)
+        Me.MenuStrip1.TabIndex = 41
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'WalletsToolStripMenuItem
+        '
+        Me.WalletsToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.WalletsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.walstore, Me.ToolStripSeparator1, Me.clist, Me.ToolStripMenuItem1, Me.ToolStripMenuItem2})
+        Me.WalletsToolStripMenuItem.Name = "WalletsToolStripMenuItem"
+        Me.WalletsToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
+        Me.WalletsToolStripMenuItem.Text = "Wallets"
+        '
+        'walstore
+        '
+        Me.walstore.BackColor = System.Drawing.SystemColors.MenuBar
+        Me.walstore.Name = "walstore"
+        Me.walstore.Size = New System.Drawing.Size(100, 23)
+        Me.walstore.Text = "Enter Wallet"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(178, 6)
+        '
+        'clist
+        '
+        Me.clist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.clist.Items.AddRange(New Object() {"Aeon", "Bytecoin", "Bipcoin", "Bitcoal", "Monero", "Sumokoin", "Ultranote", "Zcash"})
+        Me.clist.Name = "clist"
+        Me.clist.Size = New System.Drawing.Size(121, 23)
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(181, 22)
+        Me.ToolStripMenuItem1.Text = "View Wallet"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(181, 22)
+        Me.ToolStripMenuItem2.Text = "Save Wallet"
         '
         'main
         '
@@ -432,6 +487,8 @@ Partial Class main
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.StatusStrip1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "main"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -440,6 +497,8 @@ Partial Class main
         Me.StatusStrip1.PerformLayout()
         CType(Me.cpunum, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gpunum, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -480,5 +539,12 @@ Partial Class main
     Friend WithEvents CheckBox12 As System.Windows.Forms.CheckBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents WalletsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents walstore As System.Windows.Forms.ToolStripTextBox
+    Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents clist As System.Windows.Forms.ToolStripComboBox
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
 
 End Class
