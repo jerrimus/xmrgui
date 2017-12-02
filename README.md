@@ -2,9 +2,11 @@
 ![Screenshot](https://i.imgur.com/n88MMH3.png "Picture of xmgui") 
       
       
-XMHUI is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config.
+XMGUI is a simple graphic shell, you enter your data, it creates a config file for you and launches the miner using the config.
 Our current back ends are the  [xmr-stak  miner](https://github.com/fireice-uk/xmr-stak) and the [nice hash equihash miner](https://github.com/nicehash/nheqminer)
  
+   XMGUI currently mines Aeon, Bytecoin, Bipcoin, Bitcoal, Monero, Sumokoin,Ultranote, and Zcash.
+   
  ____
       
    This is an aplha, the software may have some issues, but appeared to be fully functional in my testing
