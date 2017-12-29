@@ -20,12 +20,8 @@ It's currently written in vb.net. If you wish to compile yourself, grab a free c
   
   ____
 
-If you would like to donate as thanks or encouragement to keep working on this project my xmr, eth,m and btc wallets are below.
+If you would like to donate as thanks or encouragement to keep working on this project my xmr.
 
-BTC - 1F26dDocb9K7EQZfHz1EsnKKCdyPCMKxmD
 
-ETH - 0xb8452276e642885c3c7da84bca41cf43590af5a0
-
-DSH - XySqwqHGJnjbTSxe9QMnTGCmNXENRcCc5H
 
 XRM - 48EE538ATaagrtvQwSKy2PSmVxARCpmrqVR9dpZ6w8jsCoerXcSXnriHaU3mj14xKsChzcxs1aWRiMMnsPWabHFEGVQUmhq
